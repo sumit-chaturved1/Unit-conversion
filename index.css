@@ -1,0 +1,118 @@
+body{
+	text-align: center;
+	background-image: url(background.jpg);
+	background-size: 1400px;
+	background-position: center;
+}
+#outer-container{
+	position: relative;
+	margin: auto;
+	width: 400px;
+	height: 550px;
+	background: #1F2937;
+	border-radius: 10px	;
+	
+}
+#inner-top-container{
+	height: 200px;
+	width: 400px;
+	background: #6943FF ;
+	border-radius: 10px 10px 0 0 ;
+}
+#title-text{
+
+	position: absolute;
+	top: 10px;
+	left: 35px;
+	font-weight: bold;
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#input-box{
+	text-align: center;
+	position: absolute;
+	top: 75px;
+	left: 160px;
+	border: 2px solid #B295FF;
+	height: 55px;
+	width: 85px;
+	border-radius: 4px;
+	background: none;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	color: white;
+	font-size: 40px;
+}
+
+#input-box:focus{
+	outline: none;
+}
+
+#convert-btn{
+	position: absolute;
+	top: 150px;
+	left: 160px;
+	height: 30px;
+	width: 89px;
+	color: #3D3D3D;
+	border-radius: 8px;
+	border: 1px solid #B295FF;
+	font-size: 12px;
+	font-weight: bold;
+}
+#convert-btn:active{
+	background: #1F2937;
+	color: white;
+}
+#length-box{
+	position: absolute;
+	width: 350px;
+	height: 80px;
+	left: 25px;
+	top: 225px;
+	background: #273549;
+
+}
+#volume-box{
+	position: absolute;
+	width: 350px;
+	height: 80px;
+	left: 25px;
+	top: 330px;
+	background: #273549;
+
+}
+#mass-box{
+	position: absolute;
+	width: 350px;
+	height: 80px;
+	left: 25px;
+	top: 435px;
+	background: #273549;
+}
+.bottom-box-title-txt{
+	margin: 15px;
+	margin-bottom: 0;
+	color: #CCC1FF;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+}
+#length-out{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#volume-out{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#mass-out{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
